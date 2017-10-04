@@ -42,8 +42,5 @@
     "eslint-config-ultra": "^0.4.5",
     "mocha": "^3.5.3",
     "nyc": "^11.2.1"
-  },
-  "dependencies": {
-    "colors": "^1.1.2"
   }
 }
