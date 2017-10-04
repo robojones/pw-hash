@@ -28,10 +28,6 @@ class HashGenerator {
       saltLength = 64
     } = opt
 
-    if (!supportedAlgorithms.includes(algorithm)) {
-      supportedAlgorithms.push(algorithm)
-    }
-
     this.algorithm = algorithm
     this.supportedAlgorithms = supportedAlgorithms
     this.saltLength = saltLength
@@ -107,8 +103,10 @@ class HashGenerator {
       digest
     }
   }
-}
 
-HashGenerator.HashGenerator = HashGenerator
+  get HashGenerator() {
+    return HashGenerator
+  }
+}
 
 module.exports = new HashGenerator()
