@@ -9,12 +9,12 @@ Easy and secure password hashing with salt.
 [![bitHound Overall Score](https://www.bithound.io/github/robojones/pw-hash/badges/score.svg)](https://www.bithound.io/github/robojones/pw-hash)
 [![bitHound Dependencies](https://www.bithound.io/github/robojones/pw-hash/badges/dependencies.svg)](https://www.bithound.io/github/robojones/pw-hash/master/dependencies/npm)
 
-## Features
-- 100% tested.
-- Uses a secure hash algorithm by default (sha256).
-- No dependencies.
+## Highlights
+- __100%__ tested.
+- No __dependencies__.
+- Uses a __strong hash algorithm__ by default (sha256).
 - Appends a random string (salt) to each password before hashing it (for extra security).
-- JSDoc documentation for autocompletion in Editors like VS Code.
+- JSDoc documentation for __completion__ in editors like VS Code.
 
 ## Installation
 
@@ -42,7 +42,7 @@ hash.verify('example password', hashString) // true
 
 - password `<string>` - A string containing the password.
 
-__Returns__ a hashString that you can use with the verify method.
+__Returns__ a string that can be stored in the database. It can be used with the verify method to check if a password matches.
 
 ### hash.verify(password, hashString)
 
