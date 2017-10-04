@@ -10,10 +10,11 @@ Easy and secure password hashing with salt.
 [![bitHound Dependencies](https://www.bithound.io/github/robojones/pw-hash/badges/dependencies.svg)](https://www.bithound.io/github/robojones/pw-hash/master/dependencies/npm)
 
 ## Features
+- 100% tested.
 - Uses a secure hash algorithm by default (sha256).
+- No dependencies.
 - Appends a random string (salt) to each password before hashing it (for extra security).
 - JSDoc documentation for autocompletion in Editors like VS Code.
-- 100% tested.
 
 ## Installation
 
