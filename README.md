@@ -1,6 +1,5 @@
 # pw-hash
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/robojones/pw-hash.svg)](https://greenkeeper.io/)
 Easy and secure password hashing with salt.
 
 [![Build Status](https://circleci.com/gh/robojones/pw-hash.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/robojones/pw-hash/tree/master)
